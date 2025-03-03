@@ -1,0 +1,34 @@
+.pink{
+    background-color: pink;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.lightsky{
+    background-color: lightskyblue;
+}
+.grey{
+    background-color: grey;
+}
+.blue{
+    background-color: cadetblue;
+
+}
+.mb-3{
+    box-shadow: -1em 0 .4em rgb(241, 241, 117);
+    transition: margin-right 2s ease-in-out;
+}
+.barreVisible{
+    
+}
+.carousel-item{
+    max-height:483px;
+    background-position-y: 30%;
+}
+/*
+img{
+border-radius:50%;
+}*/

@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Robot Crush";
+  src: url("/robot_crush/.ttf") format("ttf"),
+         url("/robot_crush/Robot Crush.otf") format("otf");
+ }
+ 
+//nav
+nav {
+  height: 60px;
+  width: 100%;
+  background-color: $color-base-nav-liens;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.1);
+  color: #FFF;
+}
+.nav-container {
+  //width: 1440px;
+  margin: auto;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+nav .nav-container .nav-right {
+  width: 60%;
+  font-size: 20px;
+  height: 100%;
+  //text-transform: uppercase;
+  //font-family: "Robot Crush";
+  margin-top: 27px;
+}
+nav .nav-container .nav-right ul {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  list-style: none;
+  
+}
+.nav-right ul{
+  font-family: 'Bangers', cursive;
+     color:rgb(63, 122, 122);
+}
+.nav-right ul li a{
+  text-decoration: none;
+  border-top: 2px solid transparent;
+  color: #7e7e7e;
+}
+.nav-right ul li a:hover {
+  border-top: 2px solid #7e7e7e;
+  color: #000000;
+}
+.nav-right ul li a:active, .nav-right ul li a:focus {
+  border-top: 2px solid white;
+  color: white;
+}
+
+// anim Jerome Lopez nav
+.nav-left {
+  margin: 2%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //height: 100vh;
+  }
+  .logo{
+    height:55px;
+  }
+  .signature {
+  position: relative;
+  font-family: Impact, sans-serif;
+  font-size: 45px;
+  letter-spacing: 6px;
+  background: linear-gradient(90deg, #FFC300, #F8462F, #02BBD5);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 4s infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  @keyframes animate {
+  0% {
+  background-position: -500%;
+  }
+  100% {
+  background-position: 500%;
+  }
+  }

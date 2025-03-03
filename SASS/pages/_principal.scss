@@ -1,0 +1,183 @@
+body{
+    @media query and (min-width:600px){
+            font-size:1.05 * $taille-base-police;
+            background:$couleur-fond-page-petit;
+        }
+        @media query and (min-width:800px){
+            font-size:1.10 * $taille-base-police;
+            font-family: 'Times New Roman', Times, serif;
+            background:$couleur-fond-page-petit;
+        }
+        @media query and (min-width:1000px){
+            font-size:1.15 * $taille-base-police;
+        }
+
+          margin: 0;
+          padding: 0;
+}
+/*header{
+    background-color: $color-header;
+    border: 2px solid $border-header;
+    margin: 2% 0 0;
+    border-radius: 12px;
+    position: relative;
+  }
+  
+  header h1{
+      margin: 0 auto;
+      padding: 10px 0;
+      text-align: center;
+      font-size: 1.1em;	
+      color: $couleur-titres;
+  }*/
+  .personnage{
+    display: block;
+height: 92px;
+width: 86px;
+background: url("./SASS/img/sprite-trans.png") -5px 0 no-repeat;
+  }
+  .personnage:hover{
+    background: url("./SASS/img/sprite-trans.png") -434px -7px no-repeat;
+  }
+  .papillon{
+    display: block;
+    height: 342px;
+    width: 369px;
+background: url("./SASS/img/soleil-v2.svg") -5px 0 no-repeat;
+  }
+  .papillon:hover{
+    background: url("./SASS/img/sprite-trans.png") -434px -7px no-repeat;
+  }
+
+  
+  #container-principal{
+    position: relative;
+  }
+#pres_container {
+    display: flex;
+   // flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pres_block {
+display: flex;
+//flex-basis: 33%;
+margin: 2px 2px 4px 10px;
+margin-bottom: 3%;
+flex-direction: column;
+align-items: center;
+flex-wrap: wrap;
+  }
+#pres_container .pres_block .pres_logo {
+  height: 100px;
+  color: $color-base-nav-liens;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+.pres_elt{
+  border-top: 2px solid $border-survol;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  /*box-shadow: 5px 10px 8px #888888;
+  flex: 1;*/
+box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.1);
+transition: all 500ms ease;
+}
+.pres_elt:hover{
+  //box-shadow: 5px 10px 8px #888888;
+  transform: scale(0.99);
+box-shadow: 0 0 5px rgba(15,15,15,0.2);
+}
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  position:relative;
+}
+h2:before{
+  content : "";
+  border-bottom:2px solid grey;
+position: absolute;
+left: 30%;
+bottom: 0;
+height: 1px;
+width: 44%;
+}
+#cursus_sec{
+  margin: 1% 1% 1% 1%;
+  background: #e1ecd6a1;
+  border: 1px solid gray;
+  border-radius: 20px;
+  
+ 
+}
+#cursus_sec 
+#cursus-elt-container{
+  width:970px;
+}
+.cursus-elt-container .cursus-elt {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  display: flex;
+  background-color: $box-cursus;
+  padding: 10px 40px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.1);
+  color: #FFF;
+  align-items: center;
+  position: relative;
+  //left: -50%;
+  //opacity: 0;
+  transition: all 500ms ease;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.history, .ifocop, .univers,.fac{
+  color: white;
+  font-size: 56px;
+padding-right: 49px;
+font-family: FontAwesome;
+}
+.ifocop:before{
+  content:"\f135";
+}
+.fac:before{
+  content:"\f19c";
+}
+.univers:before{
+  content:"\f19d";
+ 
+}
+.history:before{
+  content:"\f02d";
+}
+.cursus-elt-container .cursus-elt .cursus-elt-text .cursus-title {
+  font-size: 23px;
+  font-family: 'HelveticaNeue-Medium';
+  margin-bottom: 5px;
+}
+.third-sec .cursus-elt-container .cursus-elt .cursus-elt-text {
+  line-height: 20px;
+}
+.third-sec .cursus-elt-container .cursus-elt .cursus-elt-text .cursus-spec {
+  font-size: 20px;
+  font-family: 'HelveticaNeue-Thin';
+  margin-bottom: 5px;
+}
+.third-sec .cursus-elt-container .cursus-elt .cursus-elt-text .cursus-details {
+  font-size: 18px;
+  font-family: 'HelveticaNeue-ThinItalic';
+  font-style: italic;
+}
+.third-sec .cursus-elt-container .cursus-elt {
+  padding: 10px 35px;
+}
+.third-sec .cursus-elt-container {
+  width: 95%;
+  margin: auto;
+}

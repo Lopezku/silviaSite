@@ -1,0 +1,39 @@
+ //animation texte
+ .animPara{
+    font-family: 'Bangers', cursive;
+   // font-family: 'Qahiri', sans-serif;
+    color:rgb(45, 92, 92);
+  }
+  ul{
+    font-family: 'Bangers', cursive;
+    // font-family: 'Qahiri', sans-serif;
+     color:rgb(63, 122, 122);
+  }
+  h1{
+    font-family: 'Bangers', cursive;
+      color:rgb(45, 92, 92);
+  }
+  .slidein {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left:100%;
+      width:300%
+    }
+  
+    to {
+      margin-left:0%;
+      width:100%;
+    }
+  }
+  .resume{
+    position: absolute;
+    margin: 3% 3% 5% 20%;
+    top: 24%;
+    z-index: 5;
+  }
