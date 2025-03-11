@@ -1,6 +1,6 @@
 function changerLangue(langue) {
   localStorage.setItem("langue", langue); // Sauvegarde la langue choisie
-  fetch(`/assets/languages/${langue}.json`)
+  fetch(`assets/languages/${langue}.json`)
     .then((response) => {
       if (!response.ok) {
         throw new Error(`Erreur HTTP ${response.status} - Fichier introuvable`);
