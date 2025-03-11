@@ -1,0 +1,33 @@
+{
+    "menuEntries":[
+        {"entry":"Présentation"},
+        {"entry":"Cursus"},
+        {"entry":"Compétences"}],
+    "competences":"Elaboration de diagnostics cliniques, utilisation des stratégies d'évaluation TCC (entretien structuré, auto-enregistrements, questionnaires) et d'intervention cliniques de la TCC (psychoéducation, restructuration cognitive, jeu de rôle, entraînement en compétences sociales, exposition en imagination, exposition in vivo, relaxation). Travail de mise en lien avec les familles, expérience dans le travail pluridisciplinaire (médecins psychiatres).",
+    "titreFormation":"Mon cursus",
+    "formations":[{
+            "titre": "Risques professionnels en ressources humaines",
+            "description":"Gestion des Risques professionnels en ressources humaines avec le Service National d'Apprentissage - SENA (2012).",
+            "date": "2012"
+          },
+    {
+        "titre": "Traitement des problèmes de comportement de l'adolescent",
+        "description":"Séminaire de l'Association Colombienne de l'Analyse et de la Thérapie Comportementale: « Évaluation et intervention en matière de violence conjugale ». Séminaire sur le « traitement des problèmes de comportement de l'adolescent » à l'Université Konrad Lorenz (Bogota)",
+        "date": "2004"
+},
+{
+    "titre": "Problèmes d'apprentissage et handicap",
+    "description":"Séminaires sur les  « Problèmes d'apprentissage et handicap »  et  « Problèmes de couple », pendant 1 an à l'Université de la Sabana (Bogota).",
+    "date": "2000"
+},{
+    "titre": "La question de l'éthique dans les discours psychologiques",
+    "description":"Séminaire sur «La question de l'éthique dans les discours psychologiques» à l'Université Nationale de Colombie (Bogotá).",
+    "date": "1997"
+}],
+    "expérience1":"De 2022 à aujourd'hui : Processus d'homologation de mon diplôme de psychologue (reconnaissance de mes diplômes étrangers obtenue en mars 2024 par le Ministère de l'Enseignement Supérieur, de la Recherche et de l'Innovation, France). Depuis janvier 2015- Actualité : Professeure d'espagnol (cours particuliers + cours collectifs à la MJC de Noisiel, l'école de langues de L'Atelier 9 Paris et Lauréat – soutien scolaire). ",
+    "expérience2":"Octobre-Novembre 2012 : Visites à domicile aux familles d'enfants en processus d'adoption pour Kidsave Fondation (Bogota). 2006 -2010 : Psychologue clinicienne de la Faculté de Psychologie de l'Université El Bosque. 2001 – 2003 : Psychologue clinicienne au sein du Centre de services de psychologie de l'Université de la Sabana (Bogota).",
+    "expérience3":"Juillet 2012 : Conférencière sur l'orientation professionnelle pour les salariés de Drummond-Colombie dans le cadre de l'Académie Nationale de l'Apprentissage (Andec) (Santa Marta-Colombie). Novembre 2009 : Module sur les « Techniques d'Autocontrôle » pour les psychiatres de la Clinique Montserrat (Bogota). Février à Août 2008 : Conseillère sociale et Conférencière pour le programme d'orientation sur la famille de CAFAM – fonds de retraite (Bogota). ",
+    "enseignante":"2006 – 2010 : Enseignante en Psychologie Clinique de la Faculté de Psychologie à l'Université El Bosque (Bogota) pour les étudiants de deuxième et troisième années. 2001 : Enseignante en Orientation Professionnelle et projet de vie au Collège-Lycée « Edad de Oro» (Cajica-Colombie). ",
+    "chercheuse":"2010 : Recherche sur les « Attitudes à l'égard des comportements malhonnêtes des étudiants » de l'Université El Bosque (2010). 2003-2004 : Evaluatrice des programmes des études techniques des entités éducatives pour le programme « Jeunesse en action » de la Présidence de la République de Colombie. ",
+    "publications":"· Articles pour le fascicule « Via a la U » du journal nationale El Tiempo (Colombie): «Gestion de l'anxiété de parler en public», «Décisions», «Choix de carrière» (2010). · Articles publiés dans le magazine Semana: «L'éducation des enfants», «Thérapie de couples » et « Relations familiales » (2009 - 2010). - Participation à la rédaction du manuel « Vers mon projet de vie» (2010).»"
+     }

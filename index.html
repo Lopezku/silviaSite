@@ -14,17 +14,15 @@
     
     <title>Site CV interactif</title>
     <script src="JS/anim.js"></script>
+    <script src="JS/script.js"></script>
 </head>
-<!--onload="chargeVar();"-->
-<body  class="light-mode">
+
+<body class="light-mode">
 <header>
   <nav>
     <div class="navbar navbar-expand-lg navbar-light bg-light" id="navBarSite">
       <div class="container-fluid"> 
         <div class="nav-left">
-          <div class="signature">
-            Silvia Lema
-           </div>
            <div id="logo">
             <img src="assets/img/logo-header.png" alt="Logo Jerome" srcset=""></div>
             <div id="menu-button">
@@ -36,33 +34,21 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <button id="themeToggle" class="btn btn-primary mb-3">Mode Clair/Sombre</button>
+        <button class="btn btn-info" onclick="changerLangue('fr')">🇫🇷 Français</button>
+        <button class="btn btn-secondary" onclick="changerLangue('es')">🇪🇸 Español</button>
         <div class="collapse navbar-collapse nav-right" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-                <li id="navItem" class="nav-item menu-spacing navbarLight"><a class="nav-link menu_anchor" href="#pres_container">Présentation</a></li>
-                <li id="navItem" class="nav-item menu-spacing navbarLight"><a class="nav-link menu_anchor" href="#cursus_sec">Cursus</a></li>
-                <li id="navItem" class="nav-item menu-spacing navbarLight"><a class="nav-link menu_anchor" href="#skills_section">Compétences</a></li>
+                <li id="navItem" class="nav-item menu-spacing navbarLight"><a class="nav-link menu_anchor" href="#container-principal"></a></li>
+                <li id="navItem" class="nav-item menu-spacing navbarLight"><a class="nav-link menu_anchor" href="#cursus_sec"></a></li>
+                <li id="navItem" class="nav-item menu-spacing navbarLight"><a class="nav-link menu_anchor" href="#skills_section"></a></li>
             </ul>
         </div>
       </div>
     </div>
 </nav>
-<div class="wrapper">
-  <div class="wrapper-container">
-    <video autoplay playsinline muted loop preload poster="http://i.imgur.com/xHO6DbC.png">
-      <source src="https://storage.coverr.co/videos/7RzPQrmB00s01rknm8VJnXahEyCy4024IMG?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjI5MTg2NjA0fQ.M8oElp5VNO8bWEWmdF2nGiu3qDOOYRFfP8wkKvl8I20" />
-    </video>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
-      <defs>
-        <mask id="mask" x="0" y="0" width="100%" height="100%" >
-          <rect x="0" y="0" width="63%" height="100%" />
-          <text x="30" y="30">Silvia Lema</text>
-        </mask>
-      </defs>
-      <rect x="0" y="0" width="100%" height="100%" />
-    </svg>
   
 </header>
-    <div class="social-buttons">
+    <!-- <div class="social-buttons">
       <a class="social-button linkedin" type="linkedin" target="_blank" href="http://www.linkedin.com/in/jérôme-lopez-gobertiere"><div class="faLink"></div></a>
       <a class="social-button email" type="email" href="mailto:jerome_lopez@hotmail.com"><div class="faLink2"></div></a>  
       <a class="social-button cv" type="cv" target="_blank" href="https://jerome-lopez.com/jerome_lopez.pdf"><div class="faLink3"></div></a>
@@ -70,7 +56,7 @@
       <a class="social-button game" type="game" target="_blank" href="https://www.jerome-lopez.com/ProjetCV/"><div class="faLink5"></div></a>
     </div>
   </div>
-</div>
+</div> -->
 <main class="container">
   <section id="container-principal">
     <div class="inside-wrapper">
@@ -125,18 +111,16 @@
 
   <section id="cursus_sec" class="third-sec other-section">
     <div class="inside-wrapper">
-        <h2>Mon cursus</h2>
+        <h2 id="titre-formation"></h2>
         <div class="cursus-elt-container">
             <div class="cursus-elt">
                 <div class="cursus-elt-logo">
                     <div class="ifocop"></div>
                 </div>
                 <div class="cursus-elt-text">
-                    <p class="cursus-title">Formation Développeur Fullstack Javascript</p>
-                    <p class="cursus-spec">Création d'applications web et mobile.
-                        Gestion de projet web: front et back.
-                    Langages: JS, Jquery, SASS, CSS, HTML, Node JS...</p>
-                    <p class="cursus-details">2021/2022 - Paris Ifocop</p>
+                    <p class="cursus-title"></p>
+                    <p class="cursus-spec"></p>
+                    <p class="cursus-details"></p>
                 </div>
             </div>
             <div class="cursus-elt">
@@ -144,10 +128,9 @@
                     <div class="fac"></div>
                 </div>
                 <div class="cursus-elt-text">
-                    <p class="cursus-title">Master 2 Projets Informatiques et stratégies d'entreprises</p>
-                    <p class="cursus-spec">Langages informatiques: HTML, C, PHP, VB, Java, UNIX,Flash. Formation en alternance à l’ACFCI pour le site:
-                        https://www.enviroveille.com/</p>
-                    <p class="cursus-details">2005/2006 — Université Paris 7 Jussieu</p>
+                    <p class="cursus-title"></p>
+                    <p class="cursus-spec"></p>
+                    <p class="cursus-details"></p>
                 </div>
             </div>
             <div class="cursus-elt">
@@ -155,9 +138,9 @@
                     <div class="univers"></div>
                 </div>
                 <div class="cursus-elt-text">
-                    <p class="cursus-title">Master 2 "Dynamiques des Sociétés comparées"</p>
-                    <p class="cursus-spec">Spécialité : Histoire contemporaine d'Amérique Latine. Thèse de DEA sur les origines de la cumbia colombienne. Thèmes: histoire et ethnomusicologie.</p>
-                    <p class="cursus-details">2004/2005 — Université Paris 7 Jussieu</p>
+                    <p class="cursus-title"></p>
+                    <p class="cursus-spec"></p>
+                    <p class="cursus-details"></p>
                 </div>
             </div>
             <div class="cursus-elt">
@@ -165,9 +148,9 @@
                     <div class="history"></div>
                 </div>
                 <div class="cursus-elt-text">
-                    <p class="cursus-title">Master 1 "Relations diplomatiques entre la France et l'Irlande durant la seconde guerre mondiale"</p>
-                    <p class="cursus-spec">Thèse de maîtrise réalisée en partie à Dublin durant une année d'Erasmus à Trinity College.</p>
-                    <p class="cursus-details">2002/2004 — Trinity College Dublin et Université Paris 7 Jussieu</p>
+                    <p class="cursus-title"></p>
+                    <p class="cursus-spec"></p>
+                    <p class="cursus-details"></p>
                 </div>
             </div>
         </div>

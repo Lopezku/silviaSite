@@ -29,8 +29,15 @@ themeToggleButton.addEventListener("click", () => {
   body.classList.toggle("light-mode");
   navBarSite.classList.toggle("bg-dark");
   navBarSite.classList.toggle("bg-light");
-  navItems.classList.toggle("navbarLight");
-  navItems.classList.toggle("navbarDark");
+  let navbar = document.getElementById("navBarSite");
+
+  if (document.body.classList.contains("dark-mode")) {
+    navbar.classList.remove("navbar-light", "bg-light");
+    navbar.classList.add("navbar-dark", "bg-dark");
+  } else {
+    navbar.classList.remove("navbar-dark", "bg-dark");
+    navbar.classList.add("navbar-light", "bg-light");
+  }
 
   // Mettre à jour le texte du bouton
   themeToggleButton.textContent = body.classList.contains("dark-mode")

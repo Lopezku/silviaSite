@@ -1,0 +1,38 @@
+{
+  "menuEntries":[
+    {"entry":"Presentación"},
+    {"entry":"Curriculum"},
+    {"entry":"Competencias"}
+    ], 
+  "competences": "Elaboración de diagnósticos clínicos, uso de estrategias de evaluación TCC (entrevista estructurada, auto-registros, cuestionarios) e intervención clínica en TCC (psicoeducación, reestructuración cognitiva, juego de roles, entrenamiento en habilidades sociales, exposición en imaginación, exposición en vivo, relajación). Trabajo de enlace con las familias, experiencia en el trabajo multidisciplinario (médicos psiquiatras).",
+    "titreFormation":"Mi curriculo",
+    "formations": [
+      {
+        "titre": "Gestión de Riesgos Profesionales",
+        "description":"Gestión de Riesgos Profesionales en Recursos Humanos con el Servicio Nacional de Aprendizaje - SENA (2012).",
+        "date": "2012"
+      },
+      {
+        "titre": "Evaluación e intervención en violencia de pareja",
+        "description":"Seminario de la Asociación Colombiana de Análisis y Terapia Conductual: «Evaluación e intervención en violencia de pareja». Seminario sobre el «tratamiento de problemas de conducta en adolescentes» en la Universidad Konrad Lorenz (Bogotá).",
+        "date": "2004"
+      },
+      {
+        "titre": "Problemas de aprendizaje y discapacidad» y «Problemas de pareja",
+        "description":"Seminarios sobre «Problemas de aprendizaje y discapacidad» y «Problemas de pareja», durante 1 año en la Universidad de La Sabana (Bogotá).",
+        "date": "2000"
+      },
+      {
+        "titre": "La cuestión de la ética en los discursos psicológicos",
+        "description":"Seminario sobre «La cuestión de la ética en los discursos psicológicos» en la Universidad Nacional de Colombia (Bogotá).",
+        "date": "1997"
+      }
+    ],
+    "experiencia1": "Desde 2022 hasta la actualidad: Proceso de homologación de mi título de psicóloga (reconocimiento de mis diplomas extranjeros obtenido en marzo de 2024 por el Ministerio de Educación Superior, Investigación e Innovación, Francia). Desde enero de 2015 hasta la actualidad: Profesora de español (clases particulares + clases grupales en la MJC de Noisiel, la escuela de idiomas L'Atelier 9 París y Lauréat – apoyo escolar).",
+    "experiencia2": "Octubre-Noviembre 2012: Visitas domiciliarias a familias de niños en proceso de adopción para la Fundación Kidsave (Bogotá). 2006 -2010: Psicóloga clínica de la Facultad de Psicología de la Universidad El Bosque. 2001 – 2003: Psicóloga clínica en el Centro de Servicios Psicológicos de la Universidad de La Sabana (Bogotá).",
+    "experiencia3": "Julio 2012: Conferencista sobre orientación profesional para los empleados de Drummond-Colombia en el marco de la Academia Nacional de Aprendizaje (Andec) (Santa Marta-Colombia). Noviembre 2009: Módulo sobre «Técnicas de Autocontrol» para los psiquiatras de la Clínica Montserrat (Bogotá). Febrero a agosto de 2008: Asesora social y conferencista en el programa de orientación familiar de CAFAM – fondo de pensiones (Bogotá).",
+    "docencia": "2006 – 2010: Docente de Psicología Clínica en la Facultad de Psicología de la Universidad El Bosque (Bogotá) para estudiantes de segundo y tercer año. 2001: Docente de Orientación Profesional y Proyecto de Vida en el Colegio-Liceo «Edad de Oro» (Cajicá-Colombia).",
+    "investigacion": "2010: Investigación sobre las «Actitudes hacia los comportamientos deshonestos de los estudiantes» en la Universidad El Bosque (2010). 2003-2004: Evaluadora de programas de estudios técnicos en instituciones educativas para el programa «Juventud en Acción» de la Presidencia de la República de Colombia.",
+    "publicaciones": "· Artículos para el fascículo «Vía a la U» del periódico nacional El Tiempo (Colombia): «Gestión de la ansiedad al hablar en público», «Decisiones», «Elección de carrera» (2010). · Artículos publicados en la revista Semana: «La educación de los niños», «Terapia de pareja» y «Relaciones familiares» (2009 - 2010). · Participación en la redacción del manual «Hacia mi proyecto de vida» (2010)."
+  }
+  

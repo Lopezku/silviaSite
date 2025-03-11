@@ -5,6 +5,7 @@
   font-family: "Robot Crush";
   src: url("/robot_crush/.ttf") format("ttf"), url("/robot_crush/Robot Crush.otf") format("otf");
 }
+
 nav {
   height: 60px;
   width: 100%;
@@ -96,6 +97,10 @@ nav .nav-container .nav-right ul {
 body {
   margin: 0;
   padding: 0;
+  padding-top: 140px; 
+}
+section {
+  scroll-margin-top: 140px; 
 }
 @media query and (min-width: 600px) {
   body {
