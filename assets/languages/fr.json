@@ -1,4 +1,16 @@
 {
+    "section1Titre":"Portrait chinois",
+    "portrait":[{
+            "titre": "Expérience",
+            "description":"J'ai fait de la psychothérapie pour les jeunes et pour les adultes. J'ai travaillé avec personnes qui présentaient dépression, anxiété (phobie sociale, stress post-traumatique), problèmes de couple, échec scolaire, entre autres."
+          },{
+             "titre": "Qualités",
+            "description":"J'ai un sens de la communication assez développée, une bonne capacité d'écoute, de l'empathie et de la bienveillance. Mes principales qualités utiles pour ce poste sont : mes connaissances de la thérapie cognitive-comportemental, ma responsabilité, mon organisation, mon dynamisme, un fort sens de l'éthique professionnelle, le respect et le sens du service "
+          },
+          {
+            "titre": "Formations",
+            "description":"Ma formation universitaire et de Master 2 m'ont permis d'acquérir les bases théoriques et thérapeutiques de la thérapie cognitive-comportemental. J'ai travaillé comme psychologue clinicienne pendant 10 ans et comme professeure de psychologie à l'université en Colombie."
+          }],
     "menuEntries":[
         {"entry":"Présentation"},
         {"entry":"Cursus"},

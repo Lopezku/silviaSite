@@ -62,7 +62,7 @@ nav .nav-container .nav-right ul {
 }
 
 .nav-left {
-  margin: 2%;
+  /* margin: 2%; */
   padding: 0;
   display: flex;
   justify-content: center;
@@ -97,10 +97,10 @@ nav .nav-container .nav-right ul {
 body {
   margin: 0;
   padding: 0;
-  padding-top: 140px; 
+  padding-top: 80px; 
 }
 section {
-  scroll-margin-top: 140px; 
+  scroll-margin-top: 80px; 
 }
 @media query and (min-width: 600px) {
   body {

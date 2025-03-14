@@ -23,12 +23,19 @@
     <div class="navbar navbar-expand-lg navbar-light bg-light" id="navBarSite">
       <div class="container-fluid"> 
         <div class="nav-left">
-           <div id="logo">
-            <img src="assets/img/logo-header.png" alt="Logo Jerome" srcset=""></div>
-            <div id="menu-button">
-                <span id="burger-icon"></span>
-            </div>
+          <div class="collapse navbar-collapse nav-left" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                  <li id="navItem" class="nav-item menu-spacing navbarLight"><a class="nav-link menu_anchor" href="#container-principal"></a></li>
+                  <li id="navItem" class="nav-item menu-spacing navbarLight"><a class="nav-link menu_anchor" href="#cursus_sec"></a></li>
+                  <li id="navItem" class="nav-item menu-spacing navbarLight"><a class="nav-link menu_anchor" href="#skills_section"></a></li>
+              </ul>
+          </div>
         </div>
+        <div id="logo">
+          <img src="assets/img/logo-header.png" alt="Logo Jerome" srcset=""></div>
+          <div id="menu-button">
+              <span id="burger-icon"></span>
+          </div>
            <!-- Bouton Toggle (Burger) -->
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,13 +43,7 @@
         <button id="themeToggle" class="btn btn-primary mb-3">Mode Clair/Sombre</button>
         <button class="btn btn-info" onclick="changerLangue('fr')">🇫🇷 Français</button>
         <button class="btn btn-secondary" onclick="changerLangue('es')">🇪🇸 Español</button>
-        <div class="collapse navbar-collapse nav-right" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-                <li id="navItem" class="nav-item menu-spacing navbarLight"><a class="nav-link menu_anchor" href="#container-principal"></a></li>
-                <li id="navItem" class="nav-item menu-spacing navbarLight"><a class="nav-link menu_anchor" href="#cursus_sec"></a></li>
-                <li id="navItem" class="nav-item menu-spacing navbarLight"><a class="nav-link menu_anchor" href="#skills_section"></a></li>
-            </ul>
-        </div>
+        
       </div>
     </div>
 </nav>
@@ -60,18 +61,16 @@
 <main class="container">
   <section id="container-principal">
     <div class="inside-wrapper">
-        <h2>Portrait chinois</h2>
-    <div id="pres_container">
-      
+        <h2 id="section1Title"></h2>
+    <div class="pres_container" id="pres_container">    
           <div class="pres_block">
-            
               <div class="pres_logo"><i class="fa fa-cogs" aria-hidden="true"></i></div>
               <div class="pres_elt">
                   <div class="pres_title origins_title">
-                      <h3>Si j'étais un objet, je serai</h3>
+                      <h3></h3>
                   </div>
                   <div class="pres_content">
-                      <div>Un électron adaptable et plein d’énergie. Tenace et dynamique, j’aime les challenges et les problèmes à résoudre. Amoureux de logique et d'histoire, je m'adapte à tout type d'environnement, pays ou équipes. 
+                      <div> 
                       </div>
                   </div>
                 </div>
@@ -82,10 +81,10 @@
               <div class="pres_logo"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
               <div class="pres_elt">
                   <div class="pres_title etudiant_title">
-                      <h3>Si j'étais un adjectif, je serai (Étudiant) insatiable.</h3>
+                      <h3></h3>
                   </div>
                   <div class="pres_content">
-                      <div>Après un bac ES bilingue en espagnol, j'ai décidé de me tourner vers un master 2 en Histoire contemporaine. Puis, j'ai fait des études en Projets Informatiques et stratégies d'entreprises. Je souhaite maintenant me spécialiser en Javascript pour devenir un développeur complet.
+                      <div>
                       </div>
                   </div>
               </div>
@@ -96,10 +95,10 @@
                 <div class="pres_logo"><i class="fa fa-desktop" aria-hidden="true"></i></div>
                 <div class="pres_elt">
                     <div class="pres_title techno_title">
-                        <h3>Si j'étais un animal, je serai un Technophile.</h3>
+                        <h3></h3>
                     </div>
                     <div class="pres_content">
-                        <div>Curieux et touche à tout, j'adore m'essayer à de nouvelles technologies. Je suis un fervent défenseur des avancées technologiques.
+                        <div>
                         </div>
                     </div>
                 </div>

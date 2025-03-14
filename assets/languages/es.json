@@ -1,4 +1,15 @@
 {
+  "section1Titre":"Retrato chino",
+  "portrait": [{
+    "titre": "Experiencia",
+    "description": "He hecho psicoterapia para jóvenes y adultos. He trabajado con personas que presentaban depresión, ansiedad (fobia social, estrés postraumático), problemas de pareja, fracaso escolar, entre otros."
+  }, {
+    "titre": "Cualidades",
+    "description": "Tengo un sentido de la comunicación bastante desarrollado, una buena capacidad de escucha, empatía y benevolencia. Mis principales cualidades útiles para este puesto son: mis conocimientos de la terapia cognitivo-conductual, mi responsabilidad, mi organización, mi dinamismo, un fuerte sentido de la ética profesional, el respeto y el sentido del servicio."
+  }, {
+    "titre": "Formaciones",
+    "description": "Mi formación universitaria y de Máster 2 me permitió adquirir las bases teóricas y terapéuticas de la terapia cognitivo-conductual. He trabajado como psicóloga clínica durante 10 años y como profesora de psicología en la universidad en Colombia."
+  }],
   "menuEntries":[
     {"entry":"Presentación"},
     {"entry":"Curriculum"},
