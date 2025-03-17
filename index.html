@@ -21,29 +21,38 @@
 <header>
   <nav>
     <div class="navbar navbar-expand-lg navbar-light bg-light" id="navBarSite">
-      <div class="container-fluid"> 
-        <div class="nav-left">
-          <div class="collapse navbar-collapse nav-left" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                  <li id="navItem" class="nav-item menu-spacing navbarLight"><a class="nav-link menu_anchor" href="#container-principal"></a></li>
-                  <li id="navItem" class="nav-item menu-spacing navbarLight"><a class="nav-link menu_anchor" href="#cursus_sec"></a></li>
-                  <li id="navItem" class="nav-item menu-spacing navbarLight"><a class="nav-link menu_anchor" href="#skills_section"></a></li>
-              </ul>
-          </div>
-        </div>
-        <div id="logo">
-          <img src="assets/img/logo-header.png" alt="Logo Jerome" srcset=""></div>
-          <div id="menu-button">
-              <span id="burger-icon"></span>
-          </div>
-           <!-- Bouton Toggle (Burger) -->
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+      <div class="container-fluid">  <!-- LOGO -->
+        <div class="d-flex align-items-center">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo-header.png" alt="Logo Jerome">
+        </a>
+    
+        <!-- Bouton Toggle (Burger) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button id="themeToggle" class="btn btn-primary mb-3">Mode Clair/Sombre</button>
-        <button class="btn btn-info" onclick="changerLangue('fr')">🇫🇷 Français</button>
-        <button class="btn btn-secondary" onclick="changerLangue('es')">🇪🇸 Español</button>
-        
+    
+        <!-- MENU NAVIGATION -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item menu-spacing">
+              <a class="nav-link menu_anchor navbarLight" href="#container-principal">Accueil</a>
+            </li>
+            <li class="nav-item menu-spacing">
+              <a class="nav-link menu_anchor navbarLight" href="#cursus_sec">Cursus</a>
+            </li>
+            <li class="nav-item menu-spacing">
+              <a class="nav-link menu_anchor navbarLight" href="#skills_section">Compétences</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+        <!-- BOUTONS À DROITE -->
+        <div class="d-flex align-items-center">
+          <button id="themeToggle" class="btn btn-primary me-2">🌗 Clair</button>
+          <button class="btn btn-info me-2" onclick="changerLangue('fr')">🇫🇷 Français</button>
+          <button class="btn btn-secondary" onclick="changerLangue('es')">🇪🇸 Español</button>
+        </div>
       </div>
     </div>
 </nav>
